@@ -1,4 +1,10 @@
 /bin/
 
 test-output/
+*.lex
+*.pix
+*.html
+*.xml
+
+
 

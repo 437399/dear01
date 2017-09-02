@@ -1,9 +1,9 @@
 package hellodear01;
-abstract class A{
+ class A{
 	public void f1(){
 	System.out.println("Hello my friend class A");	
 	}
-	abstract void function();
+	
 }
 
  class B extends A{
@@ -11,27 +11,21 @@ abstract class A{
 		System.out.println("Hello my friend class B");
 	}
 		
-		void function(){
-			
-		}
+	public int f1(int a){
+		System.out.println("Hello my friend class B");
+		int roll=1;
+		return roll;
+	}
+	
 	
 	}
 
 	
 
-public class thissuper implements hellodear01.Interface {
+public class thissuper  {
 	public static void main(String args[]){
-		B obj1=new B();
-
-  public void func(){
-	  
-	   
-   }
 	
-			
-	
-
-
-
+		
+	}
 }
 
